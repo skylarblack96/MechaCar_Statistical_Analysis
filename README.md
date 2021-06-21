@@ -8,7 +8,7 @@ The linear model has a p-value of 5.35e-11 which is significantly smaller than 0
 https://user-images.githubusercontent.com/79720084/122695786-0c6ce800-d207-11eb-8404-0249b55ea6a3.png
 
 ## Summary Statistics on Suspension Coils
- Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The mean, median, variance, and standard deviation of each car's suspension coil’s PSI was calculated as a whole and per lot. The mean PSI was 1498.78. The median was 1500 psi. The variance was 62.29 psi and the standard deviation was 7.89 psi.
 https://user-images.githubusercontent.com/79720084/122696183-23600a00-d208-11eb-861d-db157577a3cb.png
 
@@ -16,7 +16,6 @@ The design specifications for the MechaCar suspension coils dictate that the var
 https://user-images.githubusercontent.com/79720084/122696617-1ee82100-d209-11eb-862a-817b4c86eecf.png
 
 ## T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 A t-test was conducted of all manufacturing lots to determine if the mean is statistically different from the 1500 pounds per square inch. The test had a p-value of 0.06 which is 0.01 above 0.05. With a 95 percent confidence interval we had a range from 1497.507 to 1500.053 and a sample mean of 1498.78. Overall, these values indicate that there is no statistical difference from the population mean of 1500 pounds per inch.
 https://user-images.githubusercontent.com/79720084/122698735-86a06b00-d20d-11eb-8557-cdd2d8891032.png
 
@@ -30,10 +29,4 @@ Lot 3 had a p-value of 0.04168 which is smaller than 0.05. Our 95 percent confid
 https://user-images.githubusercontent.com/79720084/122699354-d9c6ed80-d20e-11eb-9914-2814554440e1.png
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-This study will 
+This study will determine the logetivity of a Mechacar compared to competing cars. The number of years a car is expected to run before completely breaking down is a telling factor of how well a car is made and interesting to consumers. To test the longetivity of a Mechacar the number of years between first use and last use will be determined. Our null hypothesis, The longetivity of a Mechacar is equal to the longetivity of other car manufacturers. The alternate hypothesis, The longetivity of a Mechacar is longer than or not equal to that of other car manufacturers. Because we are comparing means of a continuous numerical variable across a number of different manufacturers we will perform a one-way ANOVA test. In order to complete this test we need years of longetivity of Mechacars and the longetivity of two or more other manufacturer's cars. This data will help dertermine another aspect of Mechacars's peformance against other car manufacturers.
